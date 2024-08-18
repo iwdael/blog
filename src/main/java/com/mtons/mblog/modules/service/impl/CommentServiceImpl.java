@@ -43,7 +43,7 @@ public class CommentServiceImpl implements CommentService {
 	private PostService postService;
 	
 	@Override
-	public Page<CommentVO> paging4Admin(Pageable pageable) {
+	public Page<CommentVO> paging4Iwdael(Pageable pageable) {
 		Page<Comment> page = commentRepository.findAll(pageable);
 		List<CommentVO> rets = CommentComplementor.of(page.getContent())
 				.flutBuildUser()

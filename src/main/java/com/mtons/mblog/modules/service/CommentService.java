@@ -23,7 +23,7 @@ import java.util.Set;
  *
  */
 public interface CommentService {
-	Page<CommentVO> paging4Admin(Pageable pageable);
+	Page<CommentVO> paging4Iwdael(Pageable pageable);
 
 	Page<CommentVO> pagingByAuthorId(Pageable pageable, long authorId);
 

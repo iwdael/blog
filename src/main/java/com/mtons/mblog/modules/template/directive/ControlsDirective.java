@@ -38,7 +38,7 @@ public class ControlsDirective extends TemplateDirective {
             handler.render();
         } else {
             // 当控制器 post 为关闭时, 继续判断角色
-            if ("post".equalsIgnoreCase(control) && SecurityUtils.getSubject() != null && SecurityUtils.getSubject().hasRole(Consts.ROLE_ADMIN)) {
+            if ("post".equalsIgnoreCase(control) && SecurityUtils.getSubject() != null && SecurityUtils.getSubject().hasRole(Consts.ROLE_IWDAEL)) {
                 handler.render();
             }
         }

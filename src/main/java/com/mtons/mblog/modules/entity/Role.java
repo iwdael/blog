@@ -16,9 +16,9 @@ public class Role implements Serializable {
     public static int STATUS_NORMAL = 0;
     public static int STATUS_CLOSED = 1;
 
-    public static String ROLE_ADMIN = "admin";
+    public static String ROLE_IWDAEL = "iwdael";
 
-    public static long ADMIN_ID = 1;
+    public static long IWDAEL_ID = 1;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

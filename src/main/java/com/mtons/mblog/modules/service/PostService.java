@@ -38,7 +38,7 @@ public interface PostService {
 	@Cacheable
 	Page<PostVO> paging(Pageable pageable, int channelId, Set<Integer> excludeChannelIds);
 
-	Page<PostVO> paging4Admin(Pageable pageable, int channelId, String title);
+	Page<PostVO> paging4Iwdael(Pageable pageable, int channelId, String title);
 	
 	/**
 	 * 查询个人发布文章

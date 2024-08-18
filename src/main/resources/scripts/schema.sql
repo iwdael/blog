@@ -96,7 +96,7 @@ CREATE TABLE `mto_user` (
 -- ----------------------------
 -- Records of mto_user
 -- ----------------------------
-INSERT INTO `mto_user` VALUES ('1', 'admin', '小豆丁', 'https://en.gravatar.com/userimage/154673030/b9a54b5b990a61cc074668b2e2a0b8c0.png', 'example@mtons.com', '3TGCQF25BLHU9R7IQUITN0FCC5', '0', '2017-08-06 17:52:41', '2017-07-26 11:08:36', '2017-10-17 13:24:13', '0', '1', '0', '0', '');
+INSERT INTO `mto_user` VALUES ('1', 'iwdael', '小豆丁', 'https://en.gravatar.com/userimage/154673030/b9a54b5b990a61cc074668b2e2a0b8c0.png', 'example@mtons.com', '3TGCQF25BLHU9R7IQUITN0FCC5', '0', '2017-08-06 17:52:41', '2017-07-26 11:08:36', '2017-10-17 13:24:13', '0', '1', '0', '0', '');
 
 -- ----------------------------
 -- Table structure for mto_user_oauth
@@ -136,7 +136,7 @@ CREATE TABLE `shiro_permission` (
 -- ----------------------------
 -- Records of shiro_permission
 -- ----------------------------
-INSERT INTO `shiro_permission` VALUES ('1', '进入后台', 'admin', '0', '0', '0');
+INSERT INTO `shiro_permission` VALUES ('1', '进入后台', 'iwdael', '0', '0', '0');
 INSERT INTO `shiro_permission` VALUES ('2', '栏目管理', 'channel:list', '0', '0', '0');
 INSERT INTO `shiro_permission` VALUES ('3', '编辑栏目', 'channel:update', '2', '0', '0');
 INSERT INTO `shiro_permission` VALUES ('4', '删除栏目', 'channel:delete', '2', '0', '0');
@@ -172,7 +172,7 @@ CREATE TABLE `shiro_role` (
 -- ----------------------------
 -- Records of shiro_role
 -- ----------------------------
-INSERT INTO `shiro_role` VALUES ('1', null, 'admin', '0');
+INSERT INTO `shiro_role` VALUES ('1', null, 'iwdael', '0');
 
 -- ----------------------------
 -- Table structure for shiro_role_permission

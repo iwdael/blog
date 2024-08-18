@@ -43,7 +43,7 @@ public abstract class PermissionTag extends SecureTag {
      * @return true/false
      */
     protected boolean isPermitted(String p) {
-        return getSubject() != null && (getSubject().hasRole(Consts.ROLE_ADMIN) || getSubject().isPermitted(p));
+        return getSubject() != null && (getSubject().hasRole(Consts.ROLE_IWDAEL) || getSubject().isPermitted(p));
     }
 
     protected abstract boolean showTagBody(String p);

@@ -140,7 +140,7 @@ public class ZipUtils {
     }
 
     public static void main(String[] args) throws IOException {
-        zip("F:/dockers/admin.zip", "F:/dockers/admin");
+        zip("F:/dockers/iwdael.zip", "F:/dockers/iwdael");
 //        unzip("F:/dockers/simple.zip", "F:/dockers/simple");
     }
 }

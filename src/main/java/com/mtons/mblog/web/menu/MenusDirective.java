@@ -29,7 +29,7 @@ public class MenusDirective extends TemplateDirective {
 
     private List<Menu> filterMenu(Subject subject) {
         List<Menu> menus = MenuJsonUtils.getMenus();
-        if (!subject.hasRole(Role.ROLE_ADMIN)) {
+        if (!subject.hasRole(Role.ROLE_IWDAEL)) {
             menus = check(subject, menus);
         }
         return menus;

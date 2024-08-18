@@ -80,7 +80,7 @@ public class BlogUtils {
         }
         return Files.list(directory).filter(entry -> {
             String name = entry.getFileName().toString();
-            return Files.isDirectory(entry) && !StringUtils.equals("__MACOSX", name) && !StringUtils.equals("admin", name);
+            return Files.isDirectory(entry) && !StringUtils.equals("__MACOSX", name) && !StringUtils.equals("iwdael", name);
         }).map(entry -> {
             Theme theme = null;
             try {
@@ -114,7 +114,7 @@ public class BlogUtils {
         for (File file : files) {
             String name = file.getName();
             log.info("list item {}", name);
-            if (file.isDirectory() && !StringUtils.equals("__MACOSX", name) && !StringUtils.equals("admin", name)) {
+            if (file.isDirectory() && !StringUtils.equals("__MACOSX", name) && !StringUtils.equals("iwdael", name)) {
                 File about = new File(file, "about.json");
                 if (about.exists()) {
                     String json = FileUtils.readFileToString(about);

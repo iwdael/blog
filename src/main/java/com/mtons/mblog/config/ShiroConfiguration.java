@@ -81,34 +81,34 @@ public class ShiroConfiguration {
         hashMap.put("/post/delete/*", "authc");
         hashMap.put("/post/upload", "authc");
 
-        hashMap.put("/admin/channel/list", "authc,perms[channel:list]");
-        hashMap.put("/admin/channel/update", "authc,perms[channel:update]");
-        hashMap.put("/admin/channel/delete", "authc,perms[channel:delete]");
+        hashMap.put("/iwdael/channel/list", "authc,perms[channel:list]");
+        hashMap.put("/iwdael/channel/update", "authc,perms[channel:update]");
+        hashMap.put("/iwdael/channel/delete", "authc,perms[channel:delete]");
 
-        hashMap.put("/admin/post/list", "authc,perms[post:list]");
-        hashMap.put("/admin/post/update", "authc,perms[post:update]");
-        hashMap.put("/admin/post/delete", "authc,perms[post:delete]");
+        hashMap.put("/iwdael/post/list", "authc,perms[post:list]");
+        hashMap.put("/iwdael/post/update", "authc,perms[post:update]");
+        hashMap.put("/iwdael/post/delete", "authc,perms[post:delete]");
 
-        hashMap.put("/admin/comment/list", "authc,perms[comment:list]");
-        hashMap.put("/admin/comment/delete", "authc,perms[comment:delete]");
+        hashMap.put("/iwdael/comment/list", "authc,perms[comment:list]");
+        hashMap.put("/iwdael/comment/delete", "authc,perms[comment:delete]");
 
-        hashMap.put("/admin/user/list", "authc,perms[user:list]");
-        hashMap.put("/admin/user/update_role", "authc,perms[user:role]");
-        hashMap.put("/admin/user/pwd", "authc,perms[user:pwd]");
-        hashMap.put("/admin/user/open", "authc,perms[user:open]");
-        hashMap.put("/admin/user/close", "authc,perms[user:close]");
+        hashMap.put("/iwdael/user/list", "authc,perms[user:list]");
+        hashMap.put("/iwdael/user/update_role", "authc,perms[user:role]");
+        hashMap.put("/iwdael/user/pwd", "authc,perms[user:pwd]");
+        hashMap.put("/iwdael/user/open", "authc,perms[user:open]");
+        hashMap.put("/iwdael/user/close", "authc,perms[user:close]");
 
-        hashMap.put("/admin/options/index", "authc,perms[options:index]");
-        hashMap.put("/admin/options/update", "authc,perms[options:update]");
+        hashMap.put("/iwdael/options/index", "authc,perms[options:index]");
+        hashMap.put("/iwdael/options/update", "authc,perms[options:update]");
 
-        hashMap.put("/admin/role/list", "authc,perms[role:list]");
-        hashMap.put("/admin/role/update", "authc,perms[role:update]");
-        hashMap.put("/admin/role/delete", "authc,perms[role:delete]");
+        hashMap.put("/iwdael/role/list", "authc,perms[role:list]");
+        hashMap.put("/iwdael/role/update", "authc,perms[role:update]");
+        hashMap.put("/iwdael/role/delete", "authc,perms[role:delete]");
 
-        hashMap.put("/admin/theme/*", "authc,perms[theme:index]");
+        hashMap.put("/iwdael/theme/*", "authc,perms[theme:index]");
 
-        hashMap.put("/admin", "authc,perms[admin]");
-        hashMap.put("/admin/*", "authc,perms[admin]");
+        hashMap.put("/iwdael", "authc,perms[iwdael]");
+        hashMap.put("/iwdael/*", "authc,perms[iwdael]");
 
         shiroFilter.setFilterChainDefinitionMap(hashMap);
         return shiroFilter;

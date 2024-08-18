@@ -31,7 +31,7 @@ public interface Consts {
 
 	String SEPARATOR_X = "x";
 
-	String ROLE_ADMIN = "admin";
+	String ROLE_IWDAEL = "iwdael";
 
 	int PAGE_DEFAULT_SIZE = 10;
 
