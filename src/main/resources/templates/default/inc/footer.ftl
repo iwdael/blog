@@ -6,7 +6,9 @@
                   <!--   <img src="<@resource src=options['site_logo']/>" alt="mblog"/> -->
                 </a>
                 <span class="footer-nav-item">${options['site_copyright']}</span>
-                <span class="footer-nav-item">${options['site_icp']}</span>
+                <span class="footer-nav-item">
+                    <a href="https://beian.miit.gov.cn/">${options['site_icp']}</a>
+                </span>
             </nav>
             <div class="gh-foot-min-back hidden-xs hidden-sm">
                 <!-- 请保留此处标识-->
